@@ -7,6 +7,6 @@ public class Experimental extends BaseTest {
 
     @Test
     public void test() {
-        //driver.get("https://google.com");
+       getDriver().get("http://18.232.121.51:8080/");
     }
 }
