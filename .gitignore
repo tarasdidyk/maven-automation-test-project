@@ -72,3 +72,7 @@ out/
 **/har/*.har
 **/allure-report.zip
 allure-results/
+src/test/java/pages/home/
+src/test/java/utils/
+src/test/resources/chromedriver.exe
+!/allure-results/
