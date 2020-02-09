@@ -71,3 +71,4 @@ out/
 **/pages/*.html
 **/har/*.har
 **/allure-report.zip
+allure-results/
