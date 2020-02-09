@@ -13,6 +13,7 @@ public class Experimental extends BaseTest {
 
     @Test
     public void test() {
+        step();
        getDriver().get("http://google.com");
     }
 }
