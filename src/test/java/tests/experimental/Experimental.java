@@ -8,7 +8,7 @@ public class Experimental extends BaseTest {
 
     @Step("Step")
     public void step() {
-
+        getDriver().get("http://google.com");
     }
 
     @Test
