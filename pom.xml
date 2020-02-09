@@ -21,16 +21,24 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.0.0-alpha-4</version>
+            <version>3.141.59</version>
         </dependency>
 
         <dependency>
             <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-maven</artifactId>
-            <version>2.10.0</version>
-            <scope>test</scope>
+            <artifactId>allure-testng</artifactId>
+            <version>2.13.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.htmlelements/htmlelements-java -->
+        <dependency>
+            <groupId>ru.yandex.qatools.htmlelements</groupId>
+            <artifactId>htmlelements-java</artifactId>
+            <version>1.19</version>
+        </dependency>
+
     </dependencies>
+
 
     <build>
         <plugins>
